@@ -69,9 +69,9 @@ function Header() {
         <div className="mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 xl:mt-4">
           <div className="text-center">
             <h2 class="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
-              Order your grocery from independent stores now!
+              <span class="text-indigo-600">
+                Order </span> your grocery from independent stores now!
           <br class="xl:hidden" />
-              <span class="text-indigo-600">Order now!</span>
             </h2>
             <div className={"mt-20"}>
               <iframe src={"https://www.videoask.com/f1rucbjec"}
