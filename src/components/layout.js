@@ -24,7 +24,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <Header />
       <div
         style={{
           margin: `0 auto`,
@@ -33,10 +33,10 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
-          All rights reserved for MyJam @ 2020.
-        </footer>
       </div>
+      <footer>
+        All rights reserved for MyJam @ 2020.
+        </footer>
     </>
   )
 }

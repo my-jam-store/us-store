@@ -1,9 +1,12 @@
 import React from "react"
+
 import Layout from "../components/layout"
-import './assets/main.css'
+import SEO from "../components/seo"
+import '../assets/main.css'
 
 const IndexPage = () => (
   <Layout>
+    <SEO title="Home" />
   </Layout>
 )
 
