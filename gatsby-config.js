@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `MyJam U.S Shop`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `An exotic grocery marketplace.`,
     author: `@gatsbyjs`,
   },
   plugins: [
