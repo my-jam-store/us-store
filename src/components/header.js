@@ -85,7 +85,6 @@ function Header() {
         </div>
       </div>
 
-      <div className="bg-white mb-40">
         <div className="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
           <div className="md:mt-0 md:order-1">
             <p className="text-right text-base leading-6 text-gray-400">
@@ -93,8 +92,6 @@ function Header() {
       </p>
           </div>
         </div>
-      </div>
-      <p className={"italic "}>.</p>
     </div>
   );
 }
