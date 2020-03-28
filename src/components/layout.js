@@ -35,8 +35,8 @@ const Layout = ({ children }) => {
         <main>{children}</main>
       </div>
       <footer>
-        All rights reserved for MyJam @ 2020.
-        </footer>
+
+      </footer>
     </>
   )
 }
