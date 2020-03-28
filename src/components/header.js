@@ -69,7 +69,7 @@ function Header() {
         <div className="mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 xl:mt-4">
           <div className="text-center">
             <h2 class="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
-              Houston, we're delivering grocery from Al Madina.
+              Order your grocery from independent stores now!
           <br class="xl:hidden" />
               <span class="text-indigo-600">Order now!</span>
             </h2>
@@ -85,11 +85,11 @@ function Header() {
         </div>
       </div>
 
-          <div className="md:mt-0 md:order-1">
-            <p className="text-right text-base leading-6 text-gray-400">
-              &copy; All rights reserved for MyJam @ 2020
+      <div className="md:mt-0 md:order-1">
+        <p className="text-right text-base leading-6 text-gray-400">
+          &copy; All rights reserved for MyJam @ 2020
       </p>
-          </div>
+      </div>
     </div>
   );
 }
